@@ -2,9 +2,13 @@
 download video by m3u8 url
 
 ## Installing m3u8ToMp4 on google Colab
-```!git clone https://github.com/bkit9x/m3u8.git
+```bash
+!git clone https://github.com/bkit9x/m3u8.git
 %cd m3u8
 !pip install pycrypto
+```
+
+```python
 from google.colab import drive
 drive.mount('/content/gdrive')
 
